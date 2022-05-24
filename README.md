@@ -8,7 +8,7 @@
 ## O projeto: 
 
 <h1 align="center">
-    <img src="/Peek 24-05-2022 18-34.gif" alt="redme">
+    <img src="Peek 24-05-2022 18-34.gif" alt="redme">
 </h1>
 
 <br>
@@ -16,7 +16,7 @@
 ## Responsivo:
 
 <h1 align="center">
-    <img src="/Peek 24-05-2022 18-36.gif" alt="redme">
+    <img src="Peek 24-05-2022 18-36.gif" alt="redme">
 </h1>
 
 ## 🛠 &nbsp;Tecnologias utilizadas:
