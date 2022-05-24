@@ -3,8 +3,6 @@
 
 - 📘 Este projeto foi pensado como uma solução para aproximar a criança da tabuada de um modo mais interativo, maximizando seu tempo de aprendizado.
 
-<br><br>
-
 ## O projeto: 
 
 <h1 align="center">
@@ -19,6 +17,8 @@
     <img src="Peek 24-05-2022 18-36.gif" alt="redme">
 </h1>
 
+<br>
+
 ## 🛠 &nbsp;Tecnologias utilizadas:
 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)&nbsp;
@@ -27,7 +27,7 @@
 ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-05122A?style=flat&logo=visual-studio-code&logoColor=007ACC)&nbsp;
 
 
-<br><br>
+<br>
 
 ## 👨🏽‍🦲 &nbsp;Autor do projeto: Vinícius Luz; Meu linkedin:
 
