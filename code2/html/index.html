@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="icon" href="../img/icon.png" type="image/png">
+
+    <script>
+        function loaded() {
+
+            const mouse = function (x) {
+                return {
+                    this: x,
+                    backOn: function x(){
+                        return this.style.borderColor = "white"
+                    },
+                    backOut: function x(){
+                        return this.style.borderColor = "#1b9df0"
+                    }
+                }
+            }
+        
+            let u = [mouse(this)]
+            let f = u[0]
+
+            let one = document.getElementsByClassName("link")[0]
+
+            one.onmouseover = f.backOn
+            one.onmouseout = f.backOut
+        
+            let two = document.getElementsByClassName("link")[1]
+         
+            two.onmouseover = f.backOn
+            two.onmouseout = f.backOut
+         
+            let three = document.getElementsByClassName("link")[2]
+      
+            three.onmouseover = f.backOn
+            three.onmouseout = f.backOut
+         
+            let four = document.getElementsByClassName("link")[3]
+       
+            four.onmouseover = f.backOn
+            four.onmouseout = f.backOut
+         
+        }
+
+    </script>
+
+</head>
+
+<body onload="loaded()">
+
+    <div id="quadro">
+
+        <div id="quadroblack">
+
+            <img id="picture" src="../img/quadro.png">
+        
+        </div>
+
+        <h1 id="titulo">
+
+            SEJA BEM-VINDO A TABUADA, DEFINA QUAL OPERAÇÃO
+            DESEJA ESTUDAR:
+
+        </h1>
+
+        <ul id="list_one">
+
+            <li class="link">
+                <a href="../html/soma.html">TABUADA DE ADIÇÃO</a>
+            </li>
+
+            <li class="link">
+                <a href="../html/sub.html">TABUADA DE SUBTRAÇÃO</a>
+            </li>
+
+        </ul>
+
+        <ul id="list_two">
+
+            <li class="link">
+                <a href="../html/multiplica.html">TABUADA DE MULTIPLICAÇÃO</a>
+            </li>
+
+            <li class="link">
+                <a href="../html/divisao.html">TABUADA DE DIVISÃO</a>
+            </li>
+
+        </ul>
+    </div>
+</body>
+
+</html>
